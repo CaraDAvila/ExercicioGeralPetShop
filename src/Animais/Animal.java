@@ -1,6 +1,10 @@
 package Animais;
 
 public abstract class Animal {
-    public abstract double calcularPrecoBase(double preco);
-    public abstract double calcularCusto();
+    String nome;
+    double peso;
+    protected abstract double calcularPrecoBase(double preco);
+    protected abstract double calcularCusto();
 }
+
+

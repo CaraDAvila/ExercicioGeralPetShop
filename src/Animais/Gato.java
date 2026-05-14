@@ -10,6 +10,7 @@ public class Gato extends Animal {
     @Override
     public double calcularPrecoBase(double preco) {
 
+        return preco;
     }
 
     @Override
